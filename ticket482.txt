@@ -1,0 +1,7 @@
+user_name=input("Name?")
+mood=input("payment method? (card/cash)")
+if mood=="card":
+    print("processing...")
+
+else:
+    print("cash accepted")
