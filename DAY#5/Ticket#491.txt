@@ -1,0 +1,4 @@
+from colorama import Fore
+import pyfiglet
+font=pyfiglet.figlet_format("Mohmmad")
+print(Fore.RED+font)
