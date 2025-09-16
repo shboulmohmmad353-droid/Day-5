@@ -1,0 +1,7 @@
+from faker import Faker
+import csv
+faker=Faker()
+with open("users.csv", "w", newline="")as f:
+    writer.writerow(["Name","Email","Job"])
+    for _ in range(10):
+        wrier.writerow([flak.Moudel_Code(),fake.Links(),fake.Type_Free_Paid()])
